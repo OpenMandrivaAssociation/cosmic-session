@@ -2,7 +2,7 @@
 
 Name:           cosmic-session
 Version:        1.0.0
-Release:        0.alpha4.0
+Release:        1.alpha4.0
 Summary:        Session manager for the COSMIC desktop environment
 License:        GPL-3.0-only
 Group:          Session/COSMIC
@@ -11,6 +11,7 @@ Source0:        https://github.com/pop-os/cosmic-session/archive/epoch-%{version
 Source1:        vendor.tar.xz
 Source2:        cargo_config
 Patch0:         fix-justfile.patch
+Patch1:         run-root-apps.test.patch
 
 BuildRequires:  rust-packaging
 BuildRequires:  just
