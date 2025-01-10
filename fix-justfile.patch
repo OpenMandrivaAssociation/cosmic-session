@@ -1,9 +1,9 @@
-diff -rub cosmic-session-1.0.0~alpha4+0/Justfile cosmic-session-1.0.0~alpha4+0-patched/Justfile
---- cosmic-session-1.0.0~alpha4+0/Justfile	2024-12-04 16:51:50.000000000 +0100
-+++ cosmic-session-1.0.0~alpha4+0-patched/Justfile	2024-12-05 22:02:59.118243910 +0100
-@@ -12,14 +12,14 @@
- xdp_cosmic := '/usr/libexec/xdg-desktop-portal-cosmic'
+diff -uraN cosmic-session-epoch-1.0.0-alpha.5/Justfile omv-cosmic-session-epoch-1.0.0-alpha.5/Justfile
+--- cosmic-session-epoch-1.0.0-alpha.5/Justfile	2025-01-02 17:34:01.000000000 +0100
++++ omv-cosmic-session-epoch-1.0.0-alpha.5/Justfile	2025-01-10 18:16:45.454866751 +0100
+@@ -13,14 +13,14 @@
  orca := '/usr/bin/orca'
+ cosmic_dconf_profile := '/usr/share/dconf/profile/cosmic'
  
 -bindir := prefix + '/bin'
 -systemddir := prefix + '/lib/systemd/user'
