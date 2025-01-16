@@ -2,12 +2,12 @@
 
 Name:           cosmic-session
 Version:        1.0.0
-Release:        0.alpha5.0
+Release:        0.alpha5.1
 Summary:        Session manager for the COSMIC desktop environment
 License:        GPL-3.0-only
 Group:          Session/COSMIC
 URL:            https://github.com/pop-os/cosmic-session
-Source0:        https://github.com/pop-os/cosmic-session/archive/epoch-%{version}-alpha.5/%{name}-epoch-%{version}-alpha.5.tar.gz
+Source0:        https://github.com/pop-os/cosmic-session/archive/epoch-%{version}-alpha.5.1/%{name}-epoch-%{version}-alpha.5.1.tar.gz
 Source1:        vendor.tar.xz
 Source2:        cargo_config
 Patch0:         fix-justfile.patch
@@ -20,7 +20,7 @@ Requires:       switcheroo-control
 %{summary}.
 
 %prep
-%autosetup -n %{name}-epoch-%{version}-alpha.5 -a1 -p1
+%autosetup -n %{name}-epoch-%{version}-alpha.5.1 -a1 -p1
 mkdir .cargo
 cp %{SOURCE2} .cargo/config
 
