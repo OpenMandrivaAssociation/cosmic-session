@@ -11,7 +11,7 @@ URL:            https://github.com/pop-os/cosmic-session
 Source0:        https://github.com/pop-os/cosmic-session/archive/epoch-%{version}%{?beta:-%{beta}}/%{name}-epoch-%{version}%{?beta:-%{beta}}.tar.gz
 Source1:        vendor.tar.xz
 Source2:        cargo_config
-Patch0:         fix-justfile.patch
+#Patch0:         fix-justfile.patch
 
 BuildRequires:  rust-packaging
 BuildRequires:  just
