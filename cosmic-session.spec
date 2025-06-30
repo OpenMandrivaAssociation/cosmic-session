@@ -37,5 +37,6 @@ just rootdir=%{buildroot} prefix=%{_prefix} install
 %{_bindir}/start-cosmic
 %{_datadir}/applications/cosmic-mimeapps.list
 %{_datadir}/wayland-sessions/cosmic.desktop
+%{_datadir}/dconf/profile/cosmic
 %{_prefix}/lib/systemd/user/cosmic-session.target
 %dir %{_datadir}/wayland-sessions
