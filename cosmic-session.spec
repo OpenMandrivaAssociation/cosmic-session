@@ -1,8 +1,8 @@
 %undefine _debugsource_packages
 
 Name:           cosmic-session
-Version:        1.0.0
-%define beta beta.7
+Version:        1.0.2
+#define beta beta.7
 Release:        %{?beta:0.%{beta}.}1
 Summary:        Session manager for the COSMIC desktop environment
 License:        GPL-3.0-only
@@ -13,6 +13,7 @@ Source1:        vendor.tar.xz
 Source2:        cargo_config
 #Patch0:         fix-justfile.patch
 
+BuildRequires:  make
 BuildRequires:  rust-packaging
 BuildRequires:  just
 Requires:       switcheroo-control
