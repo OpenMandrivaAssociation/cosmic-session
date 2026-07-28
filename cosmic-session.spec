@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 
 Name:           cosmic-session
-Version:        1.0.2
+Version:        1.2.0
 #define beta beta.7
 Release:        %{?beta:0.%{beta}.}1
 Summary:        Session manager for the COSMIC desktop environment
@@ -16,6 +16,7 @@ Source2:        cargo_config
 BuildRequires:  make
 BuildRequires:  rust-packaging
 BuildRequires:  just
+BuildRequires:  dconf
 Requires:       switcheroo-control
 
 %description
