@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 
 Name:           cosmic-session
-Version:        1.2.0
+Version:        1.4.0
 #define beta beta.7
 Release:        %{?beta:0.%{beta}.}1
 Summary:        Session manager for the COSMIC desktop environment
